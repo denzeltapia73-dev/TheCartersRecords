@@ -1,0 +1,168 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu nav ul li{
+   float: right;
+   display: block;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color:rgb(226, 230, 234);
+    padding: 8px;
+    padding-top: 60px;
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu nav ul li a:hover{
+  text-decoration-line:underline;
+  transition: 0,1s;
+}
+
+.TCR{
+    background-color:transparent;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
+
+.imagen{
+    width: 200px;
+    height: 90px;
+    border-radius: 25px; 
+    margin-top: 20px;
+}
+
+.header{
+    background-color: #1e1d27;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 115vh;
+    min-width: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-section {
+font-family: "Outfit", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+  color: #eee;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.intro-section .h2{
+  font-family: "Bungee", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 15%;
+  margin-left: 100px;
+}
+
+.intro-section h1 {
+    font-size: 60px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 15%;
+}
+
+.catalogue-main {
+    display: flex;
+    position: relative;
+  font-size: 23px; 
+    padding: 20px;
+    background-color: #1e1d27;
+}
+
+.artists-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    max-width: 1180px;
+    margin: 200px auto;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    right: -12%;
+    top: 170px;
+}
+
+.artist-card {
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin-top: -10px; 
+    padding-top: 20px;
+    gap: 15px;
+}
+
+.artist-card h2{
+    font-family: "Bungee", sans-serif;
+  font-size: 30px;
+}
+
+.artist-card p{
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.artist-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.artist-card button{
+    background-color:transparent;
+    border-radius: 30px;
+    border: 3px solid rgb(10, 10, 10);
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    font-size: 15px;
+   font-family: "Outfit", sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+

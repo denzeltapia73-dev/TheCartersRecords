@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+}
+
+.menu nav ul li{
+   float: right;
+   display: block;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color:rgb(32, 33, 34);
+    padding: 8px;
+    padding-top: 60px;
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu nav ul li a:hover{
+  text-decoration-line:underline;
+  transition: 0,1s;
+}
+
+.TCR{
+    background-color:transparent;
+    border-radius: 30px;
+    border: 3px solid rgb(14, 13, 13);
+    color: rgb(24, 23, 23);
+    text-transform: uppercase;
+    padding: 13px 30px;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
+
+.imagen{
+    width: 200px;
+    height: 90px;
+    margin-left: -20px;
+    border-radius: 25px; 
+    margin-top: 20px;
+}
+
+
+body {
+    background-color: #1e1d27;
+}
+
+.form-container {
+    width: 380px;
+    margin: 200px auto;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #171716;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333334;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tarjs-row {
+    margin: 10px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.tarjs-row img {
+    height: 30px;
+}
+
+.btn-pagar {
+    width: 100%;
+    background: #a4b63f;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-pagar:hover {
+    background: #8ea030;
+}

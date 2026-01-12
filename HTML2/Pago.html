@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="Pago.css">
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Didact+Gothic&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Didact+Gothic&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+       <header>
+        <div class="menu">
+            <img src="LogoNegro.png" class="imagen">
+            <nav>
+    <ul>
+        <li><a href="#"><button class="TCR">TCR</button></a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="Catalogo.html">Catálogo</a></li>
+        <li><a href="TheCartersRecords.html">Inicio</a></li>
+        <p>
+    </ul>
+        </nav>
+
+        </div>
+<div class="form-container">
+    <h2>Todos los campos son necesarios.</h2>
+
+    <form>
+       
+        <label>Opción de pago</label>
+        <input type="text">
+
+        <label>País</label>
+       <input type="text">
+
+        <label>Nombre del Titular de la Tarjeta</label>
+        <input type="text">
+
+        <div class="tarjs-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Electron.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="">
+        </div>
+
+        <label>Número de Tarjeta</label>
+        <input type="text">
+
+        <label>Fecha de Caducidad (MM/AAAA)</label>
+        <div class="flex-row">
+            
+            <input type class= "submit" placeholder="Mes">
+            <input type class= "submit" placeholder="Año">
+            
+        </div>
+      <div class="flex-row">
+        </div>
+
+        <label>Precio:</label>
+        <input type="submit" value="US$100.00" class="readonly">
+
+        <button type="submit" class="btn-pagar">Pagar Ahora</button>
+    </form>
+
+</div>
+</body>
+</html>

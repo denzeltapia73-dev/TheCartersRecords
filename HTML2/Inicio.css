@@ -1,0 +1,32 @@
+nav ul li {
+    display:flex;
+    margin-right: 70px;
+    list-style: none;
+    padding: 70px 0;
+    float: right; 
+   font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(226, 230, 234);
+    border-radius: 20px;
+    transition: 0.2s;
+    padding: 3px;
+}
+.imagen{
+    width: 200px;
+    height: 90px;
+    float: left;
+    padding: 15px;
+    border-radius: 25px; 
+}
+body{
+    background-image: url(FondoInicio.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
